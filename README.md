@@ -1,2 +1,2 @@
 # weixinService
-寰俊鍏紬鍙峰紑鍙�
+微信公众号开发demo

@@ -17,7 +17,13 @@ import com.thoughtworks.xstream.XStream;
 
 import weixinService.domain.TextMessage;
 
+/*
+ * xml处理工具类
+ */
 public class XmlUtil {
+	/*
+	 * xml转map
+	 */
 	public static Map<String, String> xmlToMap(HttpServletRequest request) throws IOException, DocumentException{
 		HashMap<String, String> map = new HashMap<String,String>();
 		SAXReader reader = new SAXReader();
@@ -35,6 +41,9 @@ public class XmlUtil {
 		ins.close();
 		return map;
 	}
+	/*
+	 * 文本消息对象转xml
+	 */
 	public static String textMsgToxml(TextMessage textMessage){
 		XStream xstream = new XStream();
 		xstream.alias("xml", textMessage.getClass());

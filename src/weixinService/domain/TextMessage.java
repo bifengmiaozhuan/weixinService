@@ -1,5 +1,8 @@
 package weixinService.domain;
 
+/*
+ * 文本消息类
+ */
 public class TextMessage extends BaseMessage{
 	private String Content;
 	private String MsgId;	

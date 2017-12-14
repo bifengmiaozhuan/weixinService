@@ -1,5 +1,8 @@
 package weixinService.domain;
 
+/*
+ * 消息体基础类
+ */
 public class BaseMessage {
 	private String ToUserName;
 	private String FromUserName;

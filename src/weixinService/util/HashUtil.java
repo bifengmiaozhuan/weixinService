@@ -4,6 +4,9 @@ import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+/*
+ * ¹þÏ£¹¤¾ßÀà
+ */
 public class HashUtil {
 	public static String hash(String string, String algorithm) {
         if (string.isEmpty()) {
